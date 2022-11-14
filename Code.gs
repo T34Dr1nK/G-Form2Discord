@@ -9,7 +9,7 @@ var dateS;
 var item = [];
 
 
-function onEdit(e) {
+function onSubmit(e) {
 
   var Lr = sheet.getLastRow();
   Range[Lr-1].forEach(toJson);
